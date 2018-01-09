@@ -5,7 +5,6 @@ import Resume from './components/resume/resume';
 import Contact from './components/contact/contact';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 require('normalize.css/normalize.css');
-require('./styles/App.css');
 
 class App extends Component {
   render() {

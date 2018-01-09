@@ -2,6 +2,7 @@
   "name": "suraj_resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://surajkumar9131.github.io/resume",
   "dependencies": {
     "normalize.css": "^7.0.0",
     "react": "^16.2.0",
@@ -11,6 +12,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.8",
+    "gh-pages": "^1.1.0",
     "react-scripts": "1.0.17",
     "style-loader": "^0.19.1"
   },
@@ -18,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

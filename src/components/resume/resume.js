@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import 'styles/resume.css';
 import Header from '../header/header';
 import Details from '../my-details/details';
 

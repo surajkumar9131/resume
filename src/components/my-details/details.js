@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import 'styles/details.css';
 
 class Details extends Component {
 

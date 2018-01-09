@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import 'styles/about.css';
 import Header from '../header/header';
 
 class About extends Component {
