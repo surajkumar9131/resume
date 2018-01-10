@@ -359,7 +359,8 @@ body {
 
   .resume-details .work-details .work-section .dot{
     position: relative;
-    right: 35px;
+    right: 33px;
+    font-size: 18px;
     bottom: 8px;
     color: #028cd5;
   }
